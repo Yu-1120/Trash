@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyProcess</class>
+ <widget class="QWidget" name="MyProcess">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MyProcess</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_log">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>20</y>
+     <width>341</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>看你提交日志</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_config">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>100</y>
+     <width>341</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查看本地仓库配置</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_noRemoveTwo">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>180</y>
+     <width>341</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>把本地库提交上去但是不去重</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_force_cover">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>260</y>
+     <width>341</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>强制把本地仓库代码覆盖</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stop">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>340</y>
+     <width>341</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>stop</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="file_exist">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>420</y>
+     <width>261</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>未完善</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Github">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>340</y>
+     <width>271</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Github</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
