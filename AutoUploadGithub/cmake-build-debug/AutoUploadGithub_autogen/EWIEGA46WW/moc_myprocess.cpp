@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MyProcess_t {
-    QByteArrayData data[9];
-    char stringdata0[190];
+    QByteArrayData data[8];
+    char stringdata0[168];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -39,16 +39,14 @@ QT_MOC_LITERAL(3, 37, 28), // "on_pushButton_config_clicked"
 QT_MOC_LITERAL(4, 66, 33), // "on_pushButton_noRemoveTwo_cli..."
 QT_MOC_LITERAL(5, 100, 33), // "on_pushButton_force_cover_cli..."
 QT_MOC_LITERAL(6, 134, 15), // "on_stop_clicked"
-QT_MOC_LITERAL(7, 150, 21), // "on_file_exist_clicked"
-QT_MOC_LITERAL(8, 172, 17) // "on_Github_clicked"
+QT_MOC_LITERAL(7, 150, 17) // "on_Github_clicked"
 
     },
     "MyProcess\0on_pushButton_log_clicked\0"
     "\0on_pushButton_config_clicked\0"
     "on_pushButton_noRemoveTwo_clicked\0"
     "on_pushButton_force_cover_clicked\0"
-    "on_stop_clicked\0on_file_exist_clicked\0"
-    "on_Github_clicked"
+    "on_stop_clicked\0on_Github_clicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -58,7 +56,7 @@ static const uint qt_meta_data_MyProcess[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       7,   14, // methods
+       6,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -66,16 +64,14 @@ static const uint qt_meta_data_MyProcess[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   49,    2, 0x08 /* Private */,
-       3,    0,   50,    2, 0x08 /* Private */,
-       4,    0,   51,    2, 0x08 /* Private */,
-       5,    0,   52,    2, 0x08 /* Private */,
-       6,    0,   53,    2, 0x08 /* Private */,
-       7,    0,   54,    2, 0x08 /* Private */,
-       8,    0,   55,    2, 0x08 /* Private */,
+       1,    0,   44,    2, 0x08 /* Private */,
+       3,    0,   45,    2, 0x08 /* Private */,
+       4,    0,   46,    2, 0x08 /* Private */,
+       5,    0,   47,    2, 0x08 /* Private */,
+       6,    0,   48,    2, 0x08 /* Private */,
+       7,    0,   49,    2, 0x08 /* Private */,
 
  // slots: parameters
-    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -97,8 +93,7 @@ void MyProcess::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         case 2: _t->on_pushButton_noRemoveTwo_clicked(); break;
         case 3: _t->on_pushButton_force_cover_clicked(); break;
         case 4: _t->on_stop_clicked(); break;
-        case 5: _t->on_file_exist_clicked(); break;
-        case 6: _t->on_Github_clicked(); break;
+        case 5: _t->on_Github_clicked(); break;
         default: ;
         }
     }
@@ -134,13 +129,13 @@ int MyProcess::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 7)
+        if (_id < 6)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 7;
+        _id -= 6;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 7)
+        if (_id < 6)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 7;
+        _id -= 6;
     }
     return _id;
 }

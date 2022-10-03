@@ -24,7 +24,6 @@ public:
     QPushButton *pushButton_noRemoveTwo;
     QPushButton *pushButton_force_cover;
     QPushButton *stop;
-    QPushButton *file_exist;
     QPushButton *Github;
 
     void setupUi(QWidget *MyProcess)
@@ -47,12 +46,9 @@ public:
         stop = new QPushButton(MyProcess);
         stop->setObjectName(QString::fromUtf8("stop"));
         stop->setGeometry(QRect(80, 340, 341, 71));
-        file_exist = new QPushButton(MyProcess);
-        file_exist->setObjectName(QString::fromUtf8("file_exist"));
-        file_exist->setGeometry(QRect(80, 420, 261, 141));
         Github = new QPushButton(MyProcess);
         Github->setObjectName(QString::fromUtf8("Github"));
-        Github->setGeometry(QRect(430, 340, 271, 71));
+        Github->setGeometry(QRect(80, 420, 341, 71));
 
         retranslateUi(MyProcess);
 
@@ -67,7 +63,6 @@ public:
         pushButton_noRemoveTwo->setText(QCoreApplication::translate("MyProcess", "\346\212\212\346\234\254\345\234\260\345\272\223\346\217\220\344\272\244\344\270\212\345\216\273\344\275\206\346\230\257\344\270\215\345\216\273\351\207\215", nullptr));
         pushButton_force_cover->setText(QCoreApplication::translate("MyProcess", "\345\274\272\345\210\266\346\212\212\346\234\254\345\234\260\344\273\223\345\272\223\344\273\243\347\240\201\350\246\206\347\233\226", nullptr));
         stop->setText(QCoreApplication::translate("MyProcess", "stop", nullptr));
-        file_exist->setText(QCoreApplication::translate("MyProcess", "\346\234\252\345\256\214\345\226\204", nullptr));
         Github->setText(QCoreApplication::translate("MyProcess", "Github", nullptr));
     } // retranslateUi
 
