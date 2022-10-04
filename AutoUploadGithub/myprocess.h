@@ -28,7 +28,6 @@ private slots:
     void on_pushButton_force_cover_clicked();
 
     void on_stop_clicked();
-    void on_file_exist_clicked();
 
 
     void on_Github_clicked();

@@ -78,25 +78,12 @@
     <string>stop</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="file_exist">
+  <widget class="QPushButton" name="Github">
    <property name="geometry">
     <rect>
      <x>80</x>
      <y>420</y>
-     <width>261</width>
-     <height>141</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>未完善</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="Github">
-   <property name="geometry">
-    <rect>
-     <x>430</x>
-     <y>340</y>
-     <width>271</width>
+     <width>341</width>
      <height>71</height>
     </rect>
    </property>
