@@ -1,3 +1,0 @@
-E:/LED/STM32F401RC/cmake-build-debug/CMakeFiles/STM32F401RC.elf.dir
-E:/LED/STM32F401RC/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/LED/STM32F401RC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
